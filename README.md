@@ -23,7 +23,7 @@ Use the Flipper Zero buttons to play:
 ### 1. Level Structure
 - Each stage (pattern) spawns a total of **16 invaders** (including the UFO).
 - Clear the stage by destroying all 16 invaders.
-- Upon clearing a stage, your lives and ammo are fully restored.
+- Upon clearing a stage, your ammo is fully restored to 30, but your remaining lives are carried over to the next stage.
 
 ### 2. Lives & Game Over
 - You start with 3 lives, visually represented on the screen by custom segment states: `≡` (3 lives), `二` (2 lives), and `ー` (1 life).
