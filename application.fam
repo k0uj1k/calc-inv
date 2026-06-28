@@ -1,0 +1,10 @@
+App(
+    appid="calc_inv",
+    name="Calc Invader",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="calc_inv_app",
+    stack_size=2 * 1024,
+    fap_category="Games",
+    fap_icon="calc_inv_10px.png",
+    requires=["gui"],
+)
