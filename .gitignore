@@ -3,3 +3,4 @@ dist/
 .vscode/compile_commands.json
 __pycache__/
 *.pyc
+.agy/
