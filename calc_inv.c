@@ -73,7 +73,6 @@ static void update_sound() {
 
 static void start_stage(GameData* game) {
     game->ammo = 30;
-    game->lives = 3;
     for(int i = 0; i < STG_COLUMNS; i++) {
         game->field[i] = EMPTY_DIGIT;
     }
@@ -288,6 +287,7 @@ int32_t calc_inv_app(void* p) {
                     if(game->state == StateTitle) {
                         if(event.data.input.key == InputKeyOk || event.data.input.key == InputKeyRight) {
                             game->score = 0;
+                            game->lives = 3;
                             game->stage = 1;
                             game->part = 1;
                             game->turret = 0;
